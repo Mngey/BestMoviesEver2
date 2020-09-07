@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		124EC0AD2506504000561960 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124EC0AC2506504000561960 /* InfoViewController.swift */; };
+		127E4D2B2503B57100619E4B /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127E4D2A2503B57100619E4B /* Music.swift */; };
+		127E4D2F2503B7EE00619E4B /* MusicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127E4D2E2503B7EE00619E4B /* MusicTableViewController.swift */; };
 		12A2C6A02501594200A0C446 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A2C69F2501594200A0C446 /* Movie.swift */; };
 		12A2C6A325015EB100A0C446 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A2C6A225015EB100A0C446 /* DetailViewController.swift */; };
 		12FC72542500C8C300BB1D17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FC72532500C8C300BB1D17 /* AppDelegate.swift */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		124EC0AC2506504000561960 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		127E4D2A2503B57100619E4B /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		127E4D2E2503B7EE00619E4B /* MusicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTableViewController.swift; sourceTree = "<group>"; };
 		12A2C69F2501594200A0C446 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		12A2C6A225015EB100A0C446 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		12FC72502500C8C300BB1D17 /* BestMoviesEver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestMoviesEver.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +62,7 @@
 			children = (
 				12FC72592500C8C300BB1D17 /* Main.storyboard */,
 				12FC725E2500C8C800BB1D17 /* LaunchScreen.storyboard */,
+				124EC0AC2506504000561960 /* InfoViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -65,6 +72,7 @@
 			children = (
 				12FC72692500F38400BB1D17 /* MovieListTableViewController.swift */,
 				12A2C6A225015EB100A0C446 /* DetailViewController.swift */,
+				127E4D2E2503B7EE00619E4B /* MusicTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -73,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				12A2C69F2501594200A0C446 /* Movie.swift */,
+				127E4D2A2503B57100619E4B /* Music.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -188,9 +197,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				12FC726A2500F38400BB1D17 /* MovieListTableViewController.swift in Sources */,
+				127E4D2F2503B7EE00619E4B /* MusicTableViewController.swift in Sources */,
 				12FC72542500C8C300BB1D17 /* AppDelegate.swift in Sources */,
 				12A2C6A02501594200A0C446 /* Movie.swift in Sources */,
+				124EC0AD2506504000561960 /* InfoViewController.swift in Sources */,
 				12A2C6A325015EB100A0C446 /* DetailViewController.swift in Sources */,
+				127E4D2B2503B57100619E4B /* Music.swift in Sources */,
 				12FC72682500CFCC00BB1D17 /* DataManager.swift in Sources */,
 				12FC72562500C8C300BB1D17 /* SceneDelegate.swift in Sources */,
 			);

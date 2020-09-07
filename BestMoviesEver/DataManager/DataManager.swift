@@ -62,7 +62,35 @@ class DataManager {
         "The Wachowski Brothers"
     ]
     
+    var albumName = [
+        "Back To Black",
+        "AM",
+        "When We All Fall Asleep, Where Do We Go?",
+        "White Pony",
+        "Mount Ninji and da Nice Time Kid",
+    "A Modern Tragedy Vol.1",
+        "Hozier",
+        "My Own Worst Enemy, Vol. 1",
+        "Born To Die",
+        "Chocolate Starfish and the Hot Dog Flavored Water",
+        "Hybrid Theory",
+        "The Golden Age of Grotesque"
+    ]
     
+    var artistName = [
+    "Amy Winehouse",
+    "Arctic Monkeys",
+    "Billie Eilish",
+    "Deftones",
+    "Die Antwoord",
+    "Grandson",
+    "Hozier",
+    "Jake Mirador",
+    "Lana Del Rey",
+    "Limp Bizkit",
+    "Linkin Park",
+    "Marilyn Manson"
+    ]
 }
 
 

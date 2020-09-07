@@ -57,8 +57,15 @@ class MovieListTableViewController: UITableViewController {
 
  override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
      if editingStyle == UITableViewCell.EditingStyle.delete {
-         movies.remove(at: indexPath.row)
-         tableView.deleteRows(at: [indexPath], with: UITableView.RowAnimation.automatic)
+        let alert = UIAlertController(title: "Do you really want to delete?", message: nil, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        alert.addAction(UIAlertAction(title: "Delete", style: .default, handler: {(_) in
+            self.movies.remove(at: indexPath.row)
+            
+            UIView.transition(with: tableView, duration: 1.0, options: .transitionCrossDissolve, animations: {self.tableView.reloadData()}, completion: nil)
+            //tableView.deleteRows(at: [indexPath], with: UITableView.RowAnimation.automatic)
+        }))
+        self.present(alert, animated: true)
      }
  }
     
